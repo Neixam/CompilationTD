@@ -1,0 +1,26 @@
+int r1;
+
+struct i {
+    int a;
+    char b;
+};
+
+int q;
+
+struct i calc(struct i ok, int b, char a) {
+    ok.a = b;
+    ok.b = a;
+    return ok;
+}
+
+int inbb(void) {
+    return 4;
+}
+
+int main(void) {
+    struct i alb, ok, jkl;
+    int i;
+
+    i = i + 0;
+    return 1;
+}

@@ -1,0 +1,11 @@
+struct i {
+    char b;
+    struct b {
+        int i;
+    };
+    int a;
+};
+
+int main(void) {
+    return 0;
+}

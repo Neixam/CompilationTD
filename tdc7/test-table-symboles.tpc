@@ -1,0 +1,54 @@
+/* test-table-symboles.tpc */
+
+/* Test file for simplified translator of a declaration of variables in C */
+    int r1,b,s,c,r2 ;
+	char letter, digit, punct;
+    struct cristofer
+    {
+        char i;
+        int j;
+    };
+
+int laul(int i, int v, int k, char z)
+{
+    char vol;
+    struct cristofer moi;
+
+    moi.i = 45;
+    return 4;
+}
+
+void dio(int i)
+{
+    int imlm,j,k,l;
+    char b,ckfl,d;
+    int a;
+
+    a = laul(4,b,4,d);
+    laul(4,b,4,d);
+    {
+        a = dio(k);
+        if (k == 5)
+            return ;
+        if (j == 7)
+            b = 5;
+        else
+        {
+            if (imlm - 5 == 4)
+                b = 7;
+            else
+                return ;
+        }
+    }
+    return ;
+}
+
+int main(void)  {
+   r1=12;
+   r2=24;
+   b=r1+r2;
+   punct='.';
+   while (1)
+     r1 = 2;
+   return b;
+}

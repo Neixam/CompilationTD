@@ -1,0 +1,28 @@
+int MAXmax2;
+int max_nb;
+char c ;
+
+
+int main(void) {
+   print("test correct");
+   reade(max_nb);
+   reade(MAXmax2);
+   readc(c);
+   while(1){
+   if(max_nb <= 3){
+	print("inferieur a 3");
+	
+   }
+   else{
+   	print("superieur a 3");
+   }
+   if((max_nb == 3) && (MAXmax2 != 5)){
+	print("test \n");
+   
+   }
+   }
+   return 0;
+}
+
+
+

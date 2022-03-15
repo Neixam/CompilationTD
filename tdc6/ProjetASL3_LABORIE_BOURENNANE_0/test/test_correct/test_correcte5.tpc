@@ -1,0 +1,27 @@
+// #include <stdio.h>
+
+
+struct s_1 {
+    int k;
+    char j;
+};
+int     i_glob;
+char    c_glob;
+
+
+void    affiche(int c) {
+    print("integer $c\n");
+}
+
+int     main(void) {
+    struct s_1 s;
+    struct s_2 ss;
+    char t;
+   
+    while (1) {
+        readc(s);
+        t = t + 1;
+	}
+    affiche(t);
+    return 0;
+}

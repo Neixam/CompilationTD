@@ -1,0 +1,44 @@
+/* test-table-symboles.tpc */
+/*STsize = 14*/
+
+/* Test file for simplified translator of a declaration of variables in C */
+struct test {
+  char texte;
+  int compteur;
+};
+
+int r1, r2;
+int max;
+char machin;
+char punct;
+struct test d;
+
+struct test hisss, teaatrz, iuy;
+
+struct test fonction_test(struct test test2, int compteur, struct test test3) {
+	return test2;
+}
+
+
+void main(void)  {
+   int aree;
+   struct test my_test, my_test2, my_test3;
+    int b;
+   r1=12;
+   r2=24;
+   my_test.texte = 'm';
+   my_test3 = fonction_test(my_test, 3 + 2, my_test2);
+   if(r1 < r2) {
+	r1=15;
+   }
+   else {
+	  print('c');
+   }
+   while(r1 < r2) {
+	  r1 = r1 + 1;
+   }
+   main();
+   b=r1+r2;
+   punct='\n';
+   return ;
+}
